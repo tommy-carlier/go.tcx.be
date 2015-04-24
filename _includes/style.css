@@ -5,13 +5,12 @@ a { text-decoration:none }
 h1 { margin:0; font:normal 200% "Segoe UI", Avenir, Tahoma, sans-serif }
 
 @media screen {
-  html { display:table; display:table; width:100%; height:100%; background:#F0F6F8; color:#082E57 }
+  html { display:table; display:table; width:100%; height:100%; background:#FCFEFF; color:#07203B }
   body { display:table-cell; vertical-align:middle }
   main { margin:0 auto 20%; padding:0 1em; max-width:40em; text-align:center }
   footer { opacity:0.6 }
-  a { color:#4B7AAD; border-bottom:solid 1px rgba(138, 179, 223, 0);
-    transition:color 0.3s ease,border-color 0.9s ease}
-  a:hover,a:focus { color:#8AB3DF; border-color:rgba(138, 179, 223, 0.75) }
+  a { color:#4B7AAD; transition:color 0.3s ease }
+  a:hover,a:focus { color:#5F96D1; text-decoration:underline }
   h1 { text-shadow:0 1px 3px #FFF }
 }
 
