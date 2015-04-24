@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang=en-US>
-  <head>
-    {% include common-head.html %}
-  </head>
-  <body>
-    <main>
-      <h1>{{page.title}}</h1>
-      {{content}}
-      <footer>© 2014–{{site.time | date:'%Y'}} Tommy Carlier → <a href="http://www.tcx.be/">www.tcx.be</a></footer>
-    </main>
-    {% include statcounter.html %}
-  </body>
-</html>
+{% include common-head.html %}
+<main>
+<h1>{{page.title}}</h1>
+{{content}}
+<footer>© 2014–{{site.time | date:'%Y'}} Tommy Carlier → <a href="http://www.tcx.be/">www.tcx.be</a></footer>
+</main>
+{% include statcounter.html %}

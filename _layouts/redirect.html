@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang=en-US>
-  <head>
-    <meta http-equiv=refresh content="1;url={{page.moved_to}}">
-    <link rel=canonical href="{{page.moved_to}}">
-    {% include common-head.html %}
-  </head>
-  <body>
-    <main>
-      <h1>{{page.title}}</h1>
-      <p>Redirecting to <a href="{{page.moved_to}}">{{page.moved_to}}</a>…</p>
-    </main>
-    {% include statcounter.html %}
-  </body>
-</html>
+<meta http-equiv=refresh content="1;url={{page.moved_to}}">
+<link rel=canonical href="{{page.moved_to}}">
+{% include common-head.html %}
+<main>
+<h1>{{page.title}}</h1>
+<p>Redirecting to <a href="{{page.moved_to}}">{{page.moved_to}}</a>…</p>
+</main>
+{% include statcounter.html %}
